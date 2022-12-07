@@ -17,5 +17,6 @@ public class HelloWorld2 {
         System.out.println("Hello,Git!");
         System.out.println("测试合并分支");
         System.out.println("测试push代码到github");
+        System.out.println("测试第二次推送代码到github");
     }
 }

@@ -20,5 +20,6 @@ public class HelloWorld2 {
         System.out.println("测试第二次推送代码到github");
         System.out.println("测试第一次拉取代码到idea");
         System.out.println("测试第一次推送代码到gitee");
+        System.out.println("测试第一次将github代码迁移到gitee");
     }
 }

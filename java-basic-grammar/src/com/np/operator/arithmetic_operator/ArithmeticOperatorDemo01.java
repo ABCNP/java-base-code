@@ -81,6 +81,5 @@ public class ArithmeticOperatorDemo01 {
         int b4 = a4--;//int b4 = --a4;
         System.out.println("a4 = " + a4 + ",b4 = " + b4);
 
-
     }
 }

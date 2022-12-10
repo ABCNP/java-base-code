@@ -4,7 +4,7 @@ package com.np.operator.relational_operators;
  * @Author NingPeng
  * @ClassName:RelationalOperatorsDemo01
  * @Email: ningpeng97@163.com
- * @Description: 关系运算符
+ * @Description: 关系运算符,比较运算符
  * @Date: 2022/12/8
  * @Version: v1.0
  */

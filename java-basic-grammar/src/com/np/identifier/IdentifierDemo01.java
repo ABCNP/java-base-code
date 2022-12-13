@@ -8,7 +8,7 @@ package com.np.identifier;
  * @Date: 2022/12/7
  * @Version: v1.0
  */
-public class Demo01Identifier {
+public class IdentifierDemo01 {
     public static void main(String[] args) {
         int myNumber = 1001;
         System.out.println(myNumber);

@@ -8,7 +8,7 @@ package com.np.notes;
  * @Date: 2022/12/7
  * @Version: v1.0
  */
-public class Demo01Notes {
+public class NotesDemo01 {
     public static void main(String[] args) {
         //单行注释
         /*

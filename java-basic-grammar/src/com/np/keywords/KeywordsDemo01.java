@@ -8,7 +8,7 @@ package com.np.keywords;
  * @Date: 2022/12/7
  * @Version: v1.0
  */
-public class Demo01Keywords {
+public class KeywordsDemo01 {
     public static void main(String[] args) {
 
     }

@@ -8,7 +8,7 @@ package com.np.variable;
  * @Date: 2022/12/7
  * @Version: v1.0
  */
-public class Demo02Type {
+public class TypeDemo01 {
     public static void main(String[] args) {
 
     }

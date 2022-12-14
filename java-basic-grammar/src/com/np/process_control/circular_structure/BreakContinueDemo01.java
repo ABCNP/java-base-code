@@ -4,7 +4,7 @@ package com.np.process_control.circular_structure;
  * @Author NingPeng
  * @ClassName:BreakContinueDemo01
  * @Email: ningpeng97@163.com
- * @Description: $Description
+ * @Description: 跳转语句
  * @Date: 2022/12/14
  * @Version: v1.0
  */

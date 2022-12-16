@@ -1,4 +1,4 @@
-package com.np.array;
+package com.np.array.multidimensional_array;
 
 /**
  * @Author NingPeng

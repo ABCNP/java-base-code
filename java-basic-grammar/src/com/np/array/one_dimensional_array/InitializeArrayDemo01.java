@@ -1,4 +1,4 @@
-package com.np.array;
+package com.np.array.one_dimensional_array;
 
 /**
  * @Author NingPeng

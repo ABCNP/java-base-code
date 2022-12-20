@@ -4,7 +4,7 @@ package com.np.process_control.process_control_test;
  * @Author NingPeng
  * @ClassName:PrimeNum3
  * @Email: ningpeng97@163.com
- * @Description: $Description
+ * @Description: 输出质数
  * @Date: 2022/12/14
  * @Version: v1.0
  */

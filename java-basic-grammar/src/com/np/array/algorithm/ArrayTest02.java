@@ -12,7 +12,6 @@ public class ArrayTest02 {
     public static void main(String[] args) {
         String[] arr = new String[]{"JJ", "DD", "MM", "BB", "GG", "AA"};
 
-
         //数组的复制(区别于数组变量的赋值：arr1 = arr)
         String[] arr1 = new String[arr.length];
         for (int i = 0; i < arr1.length; i++) {
@@ -48,7 +47,6 @@ public class ArrayTest02 {
         boolean isFlag = true;
 
         for (int i = 0; i < arr.length; i++) {
-
             if (dest.equals(arr[i])) {
                 System.out.println("找到了指定的元素，位置为：" + i);
                 isFlag = false;
@@ -57,8 +55,8 @@ public class ArrayTest02 {
         }
         if (isFlag) {
             System.out.println("很遗憾，没有找到的啦！");
-
         }
+
         //二分法查找：(熟悉)
         //前提：所要查找的数组必须有序。
         int[] arr2 = new int[]{-98, -34, 2, 34, 54, 66, 79, 105, 210, 333};
@@ -68,6 +66,7 @@ public class ArrayTest02 {
         int head = 0;//初始的首索引
         int end = arr2.length - 1;//初始的末索引
         boolean isFlag1 = true;
+
         while (head <= end) {
 
             int middle = (head + end) / 2;
@@ -90,6 +89,5 @@ public class ArrayTest02 {
 }
 /*
  * 算法的考查：数组的复制、反转、查找(线性查找、二分法查找)
- *
  *
  */

@@ -4,7 +4,7 @@ package com.np.operator.operator_test;
  * @Author NingPeng
  * @ClassName:Test01
  * @Email: ningpeng97@163.com
- * @Description: $Description
+ * @Description: 练习
  * @Date: 2022/12/14
  * @Version: v1.0
  */

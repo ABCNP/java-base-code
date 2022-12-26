@@ -1,7 +1,7 @@
-package com.np.permission_modifier;
+package com.np.java_oop_practice.practice02;
 
 /**
- * @Description: 权限修饰符
+ * @Description:
  * @Author NingPeng
  * @Email: ningpeng97@163.com
  * @Date: 2022/12/26
@@ -12,7 +12,6 @@ public class Order {
     private int orderPrivate;
     int orderDefault;
     public int orderPublic;
-
 
     private void methodPrivate() {
         orderPrivate = 1;
@@ -25,6 +24,7 @@ public class Order {
         orderDefault = 2;
         orderPublic = 3;
     }
+
 
     public void methodPublic() {
         orderPrivate = 1;

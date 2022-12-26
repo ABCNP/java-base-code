@@ -58,6 +58,10 @@ class Animal {
     private int legs;//腿的个数
 
     //对属性的设置
+    /*
+        Animal类的属性legs被private修饰,为了访问时不出现离谱的负数,或不是四条腿的情况,需要自己设置
+        这样在访问legs赋值的时候就不会出现离谱的数,而是理想的四条腿
+     */
     public void setLegs(int l) {
         if (l >= 0 && l % 2 == 0) {
             legs = l;

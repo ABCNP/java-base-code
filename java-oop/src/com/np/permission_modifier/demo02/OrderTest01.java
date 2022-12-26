@@ -1,6 +1,6 @@
-package com.np.permission_modifier2;
+package com.np.permission_modifier.demo02;
 
-import com.np.permission_modifier.Order;
+import com.np.permission_modifier.demo01.Order;
 
 /**
  * @Description: 不同权限修饰符范围

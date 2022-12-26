@@ -1,4 +1,4 @@
-package com.np.permission_modifier;
+package com.np.permission_modifier.demo01;
 
 /**
  * @Description: 不同权限修饰符范围

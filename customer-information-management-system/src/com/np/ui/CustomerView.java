@@ -49,6 +49,7 @@ public class CustomerView {
             System.out.print("                   请选择(1-5)：");
             char key = CMUtility.readMenuSelection();
             System.out.println();
+            // 使用switch-case对用户的选择，进行区别处理
             switch (key) {
                 case '1':
                     addNewCustomer();
@@ -119,14 +120,17 @@ public class CustomerView {
                 return;
             }
 
+            //为什么是index-1
+            //因为index用户看的,他只能是从1开始,程序中需要-1就是索引了
             customer = customerList.getCustomer(index - 1);
             if (customer == null)
                 System.out.println("无法找到指定客户!");
             else
                 break;
         }
-
+        // 修改用户的信息
         System.out.println("姓名(" + customer.getName() + ")：");
+        // 如果用户输入了姓名，则返回用户输入的信息，如果用户没有输入，直接回车，则返回customer.getName()
         String name = CMUtility.readString(4, customer.getName());
         System.out.print("性别(" + customer.getGender() + ")：");
         char gender = CMUtility.readChar(customer.getGender());
@@ -140,6 +144,7 @@ public class CustomerView {
         System.out.print("邮箱(" + customer.getEmail() + ")：");
         String email = CMUtility.readString(15, customer.getEmail());
 
+        // 获取用户输入的属性以后，得到的最新的Customer对象
         customer = new Customer(name, gender, age, phone, email);
 
         boolean flag = customerList.replaceCustomer(index - 1, customer);
@@ -174,6 +179,7 @@ public class CustomerView {
             else
                 break;
         }
+        // 一旦找到相应的索引位置的customer以后，让用户决定是否确认删除
         System.out.print("确认是否删除(Y/N)：");
         char yn = CMUtility.readConfirmSelection();
         if (yn == 'N')

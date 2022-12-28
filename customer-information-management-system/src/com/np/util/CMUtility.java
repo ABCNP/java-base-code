@@ -55,7 +55,7 @@ public class CMUtility {
      * @return
      */
     public static char readChar(char defaultValue) {
-        String string = readKeyBoard(1, false);
+        String string = readKeyBoard(1, true);
         return (string.length() == 0) ? defaultValue : string.charAt(0);
     }
 
@@ -68,7 +68,7 @@ public class CMUtility {
     public static int readInt() {
         int n;
         for (; ; ) {
-            String string = readKeyBoard(1, false);
+            String string = readKeyBoard(2, false);
             try {
                 n = Integer.parseInt(string);
                 break;
@@ -112,7 +112,7 @@ public class CMUtility {
      * @param limit 指定字符串的最大长度
      * @return
      */
-    public static String readString(int limit) {
+    public static String readString(int limit) {//算是校验字符串合法性,限定字符串长度,比如名字最多四个字,手机号11位等...个人觉得很脑残这样的做法
         return readKeyBoard(limit, false);
     }
 

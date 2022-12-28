@@ -3,7 +3,7 @@ package com.np.service;
 import com.np.bean.Customer;
 
 /**
- * @Description:
+ * @Description: 后端服务层, 和数据打交道, 怎么存数据, 怎么取数据, 和返回数据给前端展示层
  * @Author NingPeng
  * @Email: ningpeng97@163.com
  * @Date: 2022/12/29
@@ -12,7 +12,7 @@ import com.np.bean.Customer;
  */
 public class CustomerList {
     private Customer[] customers;//用来保存客户对象的数组
-    private int total;//记录已保存客户对象的数量
+    private int total = 0;//记录已保存客户对象的数量
 
 
     /**
@@ -23,7 +23,9 @@ public class CustomerList {
      * $return
      **/
     public CustomerList(int totalCustomer) {
-        Customer[] customer = new Customer[10];
+        //Customer[] customer = new Customer[10];//错误初始化
+        //构造器初始化对象的时候注意和声明的对象是不是一致
+        customers = new Customer[10];
     }
 
     /**
@@ -130,6 +132,5 @@ public class CustomerList {
     public int getTotal() {
         return -total;
     }
-
 
 }

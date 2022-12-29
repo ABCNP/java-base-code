@@ -8,7 +8,7 @@ package com.np.java_extends.demo01;
  * @ClassName:Person
  * @Version: v1.0
  */
-public class Person {
+public class Person extends Creature{
     String name;
     int age;
 

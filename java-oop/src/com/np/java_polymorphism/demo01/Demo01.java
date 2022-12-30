@@ -20,6 +20,7 @@ public class Demo01 {
         animal.eat();
         animal.shout();
 
+        //instance关键字的使用
         if (animal instanceof Dog) {
             Dog dog = (Dog) animal;
             dog.watchDoor();
